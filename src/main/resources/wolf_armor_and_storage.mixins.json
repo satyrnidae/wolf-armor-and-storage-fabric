@@ -1,12 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "dev.satyrn.wolf_armor_and_storage.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

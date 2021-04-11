@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "wolf_armor_and_storage",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Wolf Armor and Storage (Fabric)",
+  "description": "Transform your wolf into the ultimate adventure companion!",
   "authors": [
-    "Me!"
+    "Isabel Maskrey (satyrnidae)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://satyrn.dev/",
+    "sources": "https://github.com/satyrnidae/wolf-armor-and-storage-fabric"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/wolf_armor_and_storage/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.satyrn.wolf_armor_and_storage.WolfArmorAndStorageMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "wolf_armor_and_storage.mixins.json"
   ],
 
   "depends": {
@@ -31,7 +31,5 @@
     "fabric": "*",
     "minecraft": "1.16.x"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": { }
 }
